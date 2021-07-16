@@ -1,0 +1,6 @@
+// Checks for Palo Alto Traps for Windows - CYTOOL utility
+union DeviceInfo, DeviceFileEvents
+| where OSVersion == "Windows 10"
+| where FileName == "cytool.exe" 
+| project DeviceName
+| sort by DeviceName
