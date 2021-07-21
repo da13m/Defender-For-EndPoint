@@ -1,0 +1,1 @@
+Some MD5 IOCs identify legitimate tools—such as Putty as indicators of compromise. Although the tools themselves are not malicious, APT40 attackers placed and used them from non-standard folders during computer intrusion activity.  The location of the tool should also be assessed to eliminate false positives or to uncover malicious activity. 
